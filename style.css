@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(cyan 50%, lime 100%);
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    padding: 8px;
+    text-align: right;
+    font-family: 'Hanalei', cursive;
+    color: orangered;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Ballet', cursive;
+}
+
+h1 {
+    font-family: 'Ballet', cursive;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#about {
+    text-align: center;
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    color: dodgerblue;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#MTHR {
+    font-family: 'Allura', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: dodgerblue;
+}
+
+#MyWorkHeader {
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: dodgerblue;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#InspirationInfo {
+    transition: transform .2s;
+}
+
+#InspirationInfo:hover {
+    transform: scale(0.8);
+}
+
+#InspiringHeader {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Allura', cursive;
+    font-weight: bolder;
+    font-style: italic;
+    color: dodgerblue;
+}
+
+#ImageExplanation {
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
